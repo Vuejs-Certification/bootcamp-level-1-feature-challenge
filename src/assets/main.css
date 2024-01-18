@@ -1,0 +1,72 @@
+/*You do not need to change anything in this file*/
+@import "../../console/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  @apply bg-[#fff] w-full h-full flex justify-center items-center;
+}
+
+.input-box {
+  @apply w-[270px] rounded border border-gray-300 text-gray-400;
+}
+
+.input-box:focus {
+  @apply outline-none ring-0 border-green-500;
+}
+
+.send-btn {
+  @apply ml-3 px-3 text-center bg-green-500 h-10 rounded text-white cursor-pointer;
+}
+
+.send-btn:hover {
+  @apply opacity-80;
+}
+
+.send-btn:disabled {
+  @apply bg-gray-200 cursor-not-allowed;
+}
+
+.send-btn:disabled:hover {
+  @apply opacity-100;
+}
+
+/* scrollbar style */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c1c1c1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  visibility: visible;
+}
+
+.message-board {
+  @apply border border-gray-300 p-2 rounded text-center w-[360px];
+}
+
+.message-board-title {
+  @apply border-b border-gray-300 text-2xl h-12;
+}
+
+.message-board-list {
+  @apply h-[340px] overflow-y-auto mt-2;
+}
+
+.message {
+  @apply text-left px-2 py-1;
+}
