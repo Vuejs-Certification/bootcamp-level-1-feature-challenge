@@ -45,7 +45,7 @@ In this challenge, you are tasked with creating a simple message board system. T
 
 4. Reset the form after submit
 
-![Screenshot of the solution](./screenshot.gif)
+![Screenshot of the solution](https://s3.amazonaws.com/images.certificates.dev/bootcamp-feature-challenge.gif)
 
 ## Other Considerations
 
