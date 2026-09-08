@@ -1,7 +1,6 @@
 {
   "name": "exercise-1",
   "version": "0.0.0",
-  "packageManager": "npm@12.0.2",
   "license": "UNLICENSED",
   "type": "module",
   "scripts": {
@@ -46,5 +45,9 @@
     "msw",
     "prettier",
     "vitest"
-  ]
+  ],
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  }
 }
