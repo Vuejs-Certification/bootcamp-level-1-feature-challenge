@@ -45,5 +45,9 @@
     "msw",
     "prettier",
     "vitest"
-  ]
+  ],
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  }
 }
